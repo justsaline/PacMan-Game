@@ -28,17 +28,11 @@ Control Pac-Man with the arrow keys, avoid ghosts, eat dots, and navigate a clea
 
 ## 📸 Screenshots
 
-<<<<<<< HEAD
-![alt text](src/images/screens.png)
-![alt text](src/images/screens1.png)
-![alt text](src/images/screens2.png)
-=======
 ![Menu Screen](src/images/screens1.png)  
 ![Gameplay](src/images/screens.png)  
 ![Game Over](src/images/screens2.png)
 
 ---
->>>>>>> a9cffc7 (Update project files)
 
 ## 💡 Inspirations
 
