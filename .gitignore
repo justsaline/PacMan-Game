@@ -1,0 +1,22 @@
+# Compiled class files
+*.class
+
+# VS Code settings
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Java-specific
+*.jar
+*.war
+*.ear
+
+# Build directories
+bin/
+out/
