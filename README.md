@@ -1,7 +1,9 @@
 # Pac-Man Java Game 🟡👻
 
-A classic Pac-Man-style game written in Java using Swing.  
-You can move Pac-Man using arrow keys, avoid ghosts, eat dots, and enjoy a simple menu and game over screen.
+A classic Pac-Man clone written in Java using Swing.  
+Control Pac-Man with the arrow keys, avoid ghosts, eat dots, and navigate a clean menu and game over screen.
+
+---
 
 ## 🎮 Features
 
@@ -9,29 +11,74 @@ You can move Pac-Man using arrow keys, avoid ghosts, eat dots, and enjoy a simpl
 - Menu screen to start or exit the game
 - Game over screen with restart option
 - Simple scoring system and life counter
-- Timer-based game loop
-- Basic randomm movement for ghosts
+- Timer-based game loop using `javax.swing.Timer`
+- Basic random movement for ghosts
 - Fully keyboard-controlled
+
+---
 
 ## 🛠 Built With
 
 - Java (Swing)
-- A simple game loop using `javax.swing.Timer`
-- `paintComponent` rendering
-- Key event handling
+- `paintComponent` for rendering
+- `javax.swing.Timer` for game loop
+- Key event handling (`KeyListener`)
+
+---
 
 ## 📸 Screenshots
 
+<<<<<<< HEAD
 ![alt text](src/images/screens.png)
 ![alt text](src/images/screens1.png)
 ![alt text](src/images/screens2.png)
+=======
+![Menu Screen](src/images/screens1.png)  
+![Gameplay](src/images/screens.png)  
+![Game Over](src/images/screens2.png)
+
+---
+>>>>>>> a9cffc7 (Update project files)
 
 ## 💡 Inspirations
 
-This project is **heavily inspired** by the [Kenny YouTube Pac-Man tutorial](https://www.youtube.com/@KennyYipCoding) — big thanks to him for the amazing series!
+This project is **heavily inspired** by the  
+[Kenny Yip Coding Pac-Man tutorial](https://youtu.be/lB_J-VNMVpE?si=LC43q_Ri0yXfrKoj).  
+
+Changes made:
+- Added a menu and game over screen  
+- Used a `gameState` string instead of just a `gameOver` boolean  
+- Refactored input logic and screen rendering
+
+---
 
 ## 🚀 How to Run
 
 1. Compile:
    ```bash
-   javac Game.java
+   javac App.java
+   ```
+
+2. Run:
+   ```bash
+   java App
+   ```
+
+---
+
+## 📁 Folder Structure
+
+```
+pacman/
+│
+├── App.java
+├── PacMan.java
+├── images/
+│   ├── pacman.png
+│   ├── ghost.png
+│   ├── wall.png
+│   └── ...
+└── README.md
+```
+
+---

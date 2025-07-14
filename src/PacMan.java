@@ -415,7 +415,7 @@ public final class PacMan extends JPanel implements ActionListener, KeyListener 
         if (gameState.equals("GAME_OVER")) {
             if (e.getKeyChar() == 'E' || e.getKeyChar() == 'e') {
                 System.exit(0);
-            } else if (e.getKeyChar() == 'R'){
+            } else {
                 loadMap();
                 resetPositions();
                 lives = 3;
