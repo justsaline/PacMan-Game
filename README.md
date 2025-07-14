@@ -22,9 +22,9 @@ You can move Pac-Man using arrow keys, avoid ghosts, eat dots, and enjoy a simpl
 
 ## 📸 Screenshots
 
-![alt text](images/screens.png)
-![alt text](images/screens1.png)
-![alt text](images/screens2.png)
+![alt text](src/images/screens.png)
+![alt text](src/images/screens1.png)
+![alt text](src/images/screens2.png)
 
 ## 💡 Inspirations
 
